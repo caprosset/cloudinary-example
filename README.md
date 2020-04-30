@@ -1,6 +1,10 @@
 # cloudinary-example
 
-### npm install cloudinary multer-storage-cloudinary multer
+### Install packages
+
+```
+npm install cloudinary multer-storage-cloudinary multer --save
+```
 
 ### In config folder new file cloudinary.js
 
