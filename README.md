@@ -45,9 +45,9 @@ module.exports = parser
 ### In the router where we want to upload the image
 
 ```
-const parser = require('../config/cloudinary');
+const parser = require('./../config/cloudinary');
 
-router.post('/', parser.single('photo'), (req, res, next) =>{
+router.post('/your-endpoint', parser.single('photo'), (req, res, next) =>{
  
  const image_url = req.file.secure_url
  
